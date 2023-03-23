@@ -3,8 +3,4 @@
   win_chocolatey:
     name: '{{ item }}'
     state: present
-  with_items:
-    - 7zip
-    - firefox
-    - Notepadplusplus
-    - Adobereader
+  with_items: '{{ softwarechoco }}'
