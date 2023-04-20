@@ -3,4 +3,4 @@
   win_chocolatey:
     name: '{{ item }}'
     state: present
-  with_items: '{{ softwarechoco }}'
+  with_items: '{{ win_software_chocolatey }}'
